@@ -9,7 +9,7 @@ public static class TwoIntegerMultiply20
         {
             var multiplier = integerArray[i];
 
-            if (multiplier is > 20 or <= 0)
+            if (multiplier > 20)
                 continue;
             
             for (var j = i; j < integerArray.Length; j++)
