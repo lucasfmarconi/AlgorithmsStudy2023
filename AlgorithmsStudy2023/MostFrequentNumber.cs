@@ -1,4 +1,6 @@
 ﻿namespace AlgorithmsStudy2023;
+
+//BIG O - O(n)
 public static class MostFrequentNumber
 {
     public static int Solution(int[] integerArray)
