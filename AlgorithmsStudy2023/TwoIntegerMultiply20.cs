@@ -7,15 +7,16 @@ public static class TwoIntegerMultiply20
         //TODO: Implement an more optimal solution than this
         for (var i = 0; i < integerArray.Length; i++)
         {
-            if (integerArray[i] > 20 || integerArray[i] <= 0)
-                continue;
-            
             var multiplier = integerArray[i];
+
+            if (multiplier is > 20 or <= 0)
+                continue;
             
             for (var j = i; j < integerArray.Length; j++)
             {
-                if (multiplier * j == 20)
-                    return new[] { multiplier, j };
+                var secondMultiplier = integerArray[j];
+                if (multiplier * secondMultiplier == 20)
+                    return new[] { multiplier, secondMultiplier };
             }
         }
         //Input arrays must be valid in this case (like 4,5 or 20,1 or 2,10)
