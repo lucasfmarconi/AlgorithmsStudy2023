@@ -6,7 +6,7 @@ public static class MostFrequentNumber
     public static int Solution(int[] integerArray)
     {
         int result = default;
-        int maxCount = default;
+        var maxCount = -1;
         
         for (var i = 0; i < integerArray.Length; i++)
         {
