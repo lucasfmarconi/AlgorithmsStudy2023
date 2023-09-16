@@ -8,7 +8,7 @@ public class CommonSortedArrayElements
         var indexArrayOne = 0;
         var indexArrayTwo = 0;
 
-        while (indexArrayOne < integerArrayOne.Length)
+        while (indexArrayOne < integerArrayOne.Length && indexArrayTwo < integerArrayTwo.Length)
         {
             var elementInOne = integerArrayOne[indexArrayOne];
             var elementInTwo = integerArrayTwo[indexArrayTwo];
