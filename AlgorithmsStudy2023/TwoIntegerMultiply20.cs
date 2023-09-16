@@ -1,7 +1,6 @@
 ﻿namespace AlgorithmsStudy2023;
 public static class TwoIntegerMultiply20
 {
-    //1, 2, 3, 4, 5, 6
     public static int[] Solution(int[] integerArray)
     {
         //TODO: Implement an more optimal solution than this
