@@ -1,6 +1,6 @@
 namespace AlgorithmsStudy2023.Tests;
 
-public class BinarySolutionTests
+public class BinaryGapTests
 {
     [Theory]
     [InlineData(1041, 5)]
@@ -14,7 +14,7 @@ public class BinarySolutionTests
     [InlineData(1, 0)]
     public void Given_valid_input_should_return_expected_result(int n, int expected)
     {
-        var result = BinaryGapSolution.Solution(n);
+        var result = BinaryGap.Solution(n);
         Assert.Equal(expected, result);
     }
 }

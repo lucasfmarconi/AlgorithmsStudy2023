@@ -7,8 +7,8 @@ namespace AlgorithmsStudy2023.Benchmarks;
 public class BinaryGapSolutionBenchmark
 {
     [Benchmark]
-    public void PerformBenchmarkBinaryGapSolutionA() => BinaryGapSolution.Solution(987123);
+    public void PerformBenchmarkBinaryGapSolutionA() => BinaryGap.Solution(987123);
     
     [Benchmark]
-    public void PerformBenchmarkBinaryGapSolutionB() => BinaryGapSolution.Solution(1);
+    public void PerformBenchmarkBinaryGapSolutionB() => BinaryGap.Solution(1);
 }

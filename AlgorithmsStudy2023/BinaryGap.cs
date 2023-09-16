@@ -1,6 +1,6 @@
 ﻿namespace AlgorithmsStudy2023;
 
-public class BinaryGapSolution
+public class BinaryGap
 {
     public static int Solution(int n)
     {
