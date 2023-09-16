@@ -1,5 +1,6 @@
 ﻿namespace AlgorithmsStudy2023;
 
+//O(max(n,m))
 public class CommonSortedArrayElements
 {
     public static int[] CommonElements(int[] integerArrayOne, int[] integerArrayTwo)
