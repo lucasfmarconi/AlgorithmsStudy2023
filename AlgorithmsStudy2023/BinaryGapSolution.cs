@@ -16,8 +16,8 @@ public class BinaryGapSolution
         var skipArrayEnd = binGapArray.Length - 1;
         
         binGapArray = binGapArray[skipArrayInit..skipArrayEnd];
-        //for (var index = 0; index < binGapArray.Length; index++)
-        for (var index = skipArrayInit; index < skipArrayEnd; index++)
+        for (var index = 0; index < binGapArray.Length; index++)
+        //for (var index = skipArrayInit; index < skipArrayEnd; index++)
         {
             var binGap = binGapArray[index];
             var binGapStringLength = binGap.Length;
